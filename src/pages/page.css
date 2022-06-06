@@ -1,0 +1,69 @@
+.page-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.filter-container {
+  width: 180px;
+  margin-top: 25px;
+}
+
+.filter-container h3 {
+  margin: 0;
+}
+
+.filter-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-sidebar .checkbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.filter-sidebar .checkbox input {
+  margin-right: 12px;
+}
+
+.table-container {
+  width: 100%;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.table-container th,
+.table-container td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+.table-container tr td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.table-container .text-dark {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.table-container .text-light {
+  color: #8c8c8c;
+}

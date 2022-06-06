@@ -1,0 +1,74 @@
+.navbar {
+  width: 100%;
+  padding: 0 3rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  gap: 2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper .logo-img {
+  display: flex;
+}
+
+.logo-wrapper img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.logo-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0;
+  color: black;
+}
+
+.navbar .nav-link-wrapper {
+  flex: 1;
+  display: "flex";
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.5rem 0 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  color: grey;
+}
+
+.nav-link-active {
+  color: #20b883;
+  border-bottom: 3px solid #20b883;
+}
+
+.auth-btn {
+  line-height: 1;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  background-color: white;
+}

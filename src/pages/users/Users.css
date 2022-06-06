@@ -1,0 +1,35 @@
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+  width: 100%;
+}
+
+.search-container form {
+  width: 50%;
+  margin-right: 1.5rem;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0 36px 0 0;
+  outline: none;
+}
+
+.search-container button {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #20b883;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5rem;
+}
